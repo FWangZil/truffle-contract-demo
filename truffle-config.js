@@ -20,10 +20,9 @@
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
-var rinkebyPrivKey = process.env.rinkebyPrivKey;
-var infuraId = process.env.infuraId;
+var rinkebyPrivKey = "ad28ae93fe748c6d966c6800b46f72f6457f9c75a407c76cabccd1461b571876";
+var infuraId = "cb50601d3daf49be93e97677ffa93e67";
 
-//
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
